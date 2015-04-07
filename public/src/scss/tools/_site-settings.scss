@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+// ----------------------
+// == Site settings
+// ----------------------
+
+// Html 5 Element
+$audio-canvas-video: false; // True | False
+
+// Fonts
+$font1: "lato", sans-serif;
+$font2: "calluna-light", serif;
+$font3: "maisonneue", monospace;
+
+// = Colors
+// -----------------------------
+
+// Graphic chart
+$red: #df2e30;
+$blue1: #0D3271;
+$blue2: #53BDEB;
+
+$color1: $blue1;
+$color2: $blue2;
+
+// Text
+$color-text-base: #212121;
+
+// link
+$color-link: $color1;
+$color-link-hover: darken($color1, 10%);
+
+// Mixin Placeholder
+$color-mixin-placeholder: #cdcdcd;
+
+// Selection
+$color-selection: $color1;
+
+// Btn
+$bg-btn: #555;
+$bg-btn-hover: darken($bg-btn, 10%);
+$clr-btn: #212121;
+$clr-btn-hover: darken($clr-btn, 10%);
+
+// = Grid
+// -----------------------------
+
+// Max width wrapper
+$wrapper-width: pxtoem(1140, 16);
+
+// = Prefix
+// -----------------------------
+
+$prefix-for-webkit:    true !default;
+$prefix-for-mozilla:   true !default;
+$prefix-for-microsoft: true !default;
+$prefix-for-opera:     true !default;
+$prefix-for-spec:      true !default; // required for keyframe mixin
+
+// = Responsive
+// -----------------------------
+
+$width-large: 75em; // 1200/16
+$width-medium: 62em; // 992/16
+$width-small: 48em; // 768/16
+
+// = Retina Media Query
+// -----------------------------
+$is-hdpi : "-webkit-min-device-pixel-ratio: 1.5),
+	(min--moz-device-pixel-ratio: 1.5),
+	(-o-min-device-pixel-ratio: 3/2),
+	(min-device-pixel-ratio: 1.5),
+	(min-resolution: 1.5ddpx)";
+
+

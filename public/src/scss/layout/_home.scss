@@ -1,0 +1,48 @@
+/* ==|======================
+   Layout/Home
+   ========================= */
+
+.section--description {
+	width: 100%;
+	font-family: $font2;
+	font-size: 1.1rem;
+	text-align: justify;
+}
+
+.description__title {
+	display: block;
+	position: relative;
+	text-align: center;
+	font-family: $font2;
+	font-size: 1.7em;
+	// background-color: tomato;
+}
+
+.title__name {
+	position: relative;
+	display: inline-block;
+    height: 100%;
+	margin: auto;
+	font-family: $font1;
+	// background-color: blue;
+
+	&:after {
+		content: 'Front-End Developer';
+		display: block;
+		position: absolute;
+		top: 80%;
+		right: 0;
+		font-family: $font1;
+		font-weight: 400;
+		font-size: .8rem;
+	}
+}
+
+.description__text {
+	margin-top: 3vh;
+	color: #565656;
+}
+
+.description__link {
+	color: $color-link;
+}

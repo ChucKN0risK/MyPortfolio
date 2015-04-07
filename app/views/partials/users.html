@@ -1,0 +1,12 @@
+ <?php
+  if(isset($users)):
+  foreach($users as $user):
+  ?>
+      <li> 
+        <a href="user/<?php echo $user['id'] ?>"><?php echo $user['firstname'].' '.$user['lastname']; ?></a>
+        <a href="favorite/<?php echo $user['id'] ?>" class="favon"><i class="icon-star"></i></a>
+      </li>
+  <?php
+  endforeach;
+  endif;
+  ?>

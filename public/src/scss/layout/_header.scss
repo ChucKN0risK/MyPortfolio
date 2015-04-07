@@ -1,0 +1,117 @@
+/* ==|====================
+   Layout/Header
+   ======================= */
+
+$header-h: 10vh;
+$logo-square-w: .7em;
+
+.header--home {
+	position: relative;
+	width: 100%;
+	height: $header-h;
+	padding: 0 5vw;
+	// background-color: gold;
+	display: flex;
+	align-items: center;
+
+	box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.75);
+
+	&__logo {
+	  position: relative;
+	  width: $logo-square-w * 3;
+	  height: $logo-square-w * 4;
+	  float: left;
+	}
+}
+
+
+
+.logo__c {
+  position: relative;
+  width: $logo-square-w;
+  height: 100%;
+  margin-right: auto;
+  
+  &, &:before, &:after { background-color: $blue1; }
+  
+  &:before, &:after {
+    content: '';
+    display: block;
+    width: $logo-square-w * 3;
+    height: $logo-square-w;
+  }
+  
+  &:after {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.logo__l {
+  position: absolute;
+  width: $logo-square-w;
+  height: $logo-square-w * 2;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  
+  &, &:after { background-color: $blue2; }
+  
+  &:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: $logo-square-w * 2;
+    height: $logo-square-w;
+    bottom: 0;
+  }
+}
+
+.logo__square {
+  position: absolute;
+  width: $logo-square-w;
+  height: $logo-square-w;
+  background-color: white;
+  top: $logo-square-w;
+  right: 0;
+}
+
+.primary-nav {
+	height: 100%;
+	width: auto;
+	margin-left: auto;
+	font-family: $font1;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.primary-nav__list {
+	height: 100%;
+}
+
+.primary-nav__list__item {
+	display: inline-block;
+	height: 100%;
+	margin-left: .4rem;
+	// background-color: royalblue;
+}
+
+.item__link {
+	display: block;
+	height: 100%;
+	width: 100%;
+	// background-color: green;
+	color: black;
+	line-height: $header-h;
+}
+
+
+
+
+
+
+
+
+

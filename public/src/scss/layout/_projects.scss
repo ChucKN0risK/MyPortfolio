@@ -1,0 +1,70 @@
+/* ==|====================
+   Layout/Projects
+   ======================= */
+
+.project { 
+	margin-top: 3vh;
+	font-family: $font1;
+
+	&__title {
+		margin-bottom: 2vh;
+		font-family: $font2;
+		font-weight: 700;
+		font-size: 1.8rem;
+		line-height: 1.2;
+	}
+
+	&__infos {
+		font-weight: bold;
+		font-size: 1.1rem;
+
+		& > span { 
+			color: #565656;
+			font-weight: normal;
+		}
+	}
+
+	&__description { 
+		margin-top: 2vh;
+		font-size: 1.1rem;
+		text-align: justify;
+	}
+
+	&__link {
+		display: block;
+		width: 50vw;
+	  height: auto;
+	  margin: auto;
+	  margin-top: 2vh;
+	  padding: .5rem;
+		color: $color2;
+		border: 2px solid $color2;
+	  font-family: "Open Sans", serif;
+	  font-size: 1.1rem;
+	  font-weight: bold;
+	  text-align: center;
+	  text-transform: uppercase;
+	}
+
+	// &__link--2 {
+	//   height: auto;
+	//   margin-top: 2vh;
+	//   padding-bottom: .5rem;
+	// 	color: $color2;
+	// 	border-bottom: 2px solid $color2;
+	//   font-family: "Open Sans", serif;
+	//   font-size: 1.1rem;
+
+	//   &:hover &:after {
+	//   	transform: translateX(1rem);
+	//   }
+
+	//   &:after {
+	//   	content: '>';
+	//   	display: inline;
+	//   	margin-left: .5rem;
+	//   	transition: all ease .3s;
+	//   }
+	// }
+}
+

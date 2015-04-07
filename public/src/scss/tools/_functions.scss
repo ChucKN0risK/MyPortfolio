@@ -1,0 +1,22 @@
+// =======================
+// Tools/Functions
+// Thanks to @sutterlity
+// https://github.com/sutter/POPY-Starter-integration-web/blob/master/scss/tools/_fonctions.scss
+// =======================
+
+// Convert px to em
+@function pxtoem($target, $context){
+    @return ($target/$context)+0em;
+}
+
+//Ici on va donc écrire par exemple h1 { font-size : em(24/16) } pour avoir un paragraphe de 24px dans un conteneur de 16px.
+
+// Convert em to px
+@function emtopx($target, $context){
+    @return ($target*$context)+0px;
+}
+
+//Calc Percentage
+@function calc-percent($target, $container) {
+  @return ($target / $container) * 100%;
+}
