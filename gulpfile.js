@@ -12,7 +12,7 @@ var htmlPath = './*.html';
 
 gulp.task('serve', function() {
   browserSync({
-    proxy: "http://localhost:8888/Perso/Portfolio_2015/Working/"
+    proxy: "http://localhost:8888/Perso/Portfolio_2015/MyPortfolio/"
   });
 
   gulp.watch(sassPath, ['sass']);
