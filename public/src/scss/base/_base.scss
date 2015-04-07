@@ -27,20 +27,6 @@ a {
     }
 }
 
-.section { 
-    padding: 5vw;
-
-    &__title {
-        background-color: $color1;
-        color: white;
-        padding: 1vw 3vw;
-        text-align: center;
-        font-family: $font2;
-        text-transform: uppercase;
-        font-size: 1.5rem;
-    }
-}
-
 ::-moz-selection {
     background: $color1;
     color: #fff;

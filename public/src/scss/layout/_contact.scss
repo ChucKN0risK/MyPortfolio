@@ -3,10 +3,39 @@
    ======================= */
 
 .contact__text {
-  font-family: $font1;
+  font-family: $font2;
+  text-align: center;
+  font-size: 1.1rem;
 
   &__title {
-    font-size: 2rem;
-    text-align: center;
+    font-family: $font1;
+    font-size: 1.5rem;
+  }
+}
+
+.contact__mail {
+  font-family: $font2;
+  font-size: 2rem;
+  color: $color1;
+  border-bottom: 2px solid $color1;
+}
+
+.contact__link-wrapper {
+  margin-top: 2vh;
+  display: flex;
+  flex-flow: row wrap; 
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact__link {
+  display: block;
+  padding: .5rem;
+  border: 2px solid $color1;
+  border-radius: 50%;
+
+  & > i {
+    display: block;
+    height: auto;
   }
 }

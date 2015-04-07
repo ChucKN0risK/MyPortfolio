@@ -1,0 +1,19 @@
+/* ==|======================
+   Layout/Sections
+   ========================= */
+
+.section { 
+    padding: 5vw;
+
+    &__title {
+        display: block;
+        background-color: $color1;
+        color: white;
+        padding: 1vw 3vw;
+        margin-bottom: 3vh;
+        text-align: center;
+        font-family: $font1;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+    }
+}
