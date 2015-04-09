@@ -20,7 +20,6 @@ body {
 a {
     color: $color-link;
     text-decoration: none;
-    @include transition();
 
     &:hover {
         color: $color-link-hover;
